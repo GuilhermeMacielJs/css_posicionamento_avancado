@@ -1,0 +1,44 @@
+/*Breakpoints
+
+960px = Desktop
+
+740px = Tablet
+
+*/
+
+/*Menu*/
+@media only screen and (max-width: 739px){
+    .menu-nav{
+        float:none;
+        clear: both;
+    }
+}
+
+/*Intro*/
+@media only screen and (max-width: 739px){
+    .intro{
+        padding: 60px 0;
+    }
+}
+
+/*Sobre*/
+@media only screen and (min-width: 740px) and (max-width: 980px){
+    .sobre-container{
+        max-width: 720px;
+    }
+    .sobre-item{
+        max-width:340px;
+    }
+}
+
+@media only screen and (max-width:739px){
+    .sobre-container{
+        max-width: 300px;
+    }
+    .sobre-item{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+}
+
+/*Locais*/
