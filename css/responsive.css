@@ -16,8 +16,17 @@
 
 /*Intro*/
 @media only screen and (max-width: 739px){
+    .menu{
+        text-align: center;
+    }
+    
     .intro{
         padding: 60px 0;
+    }
+
+    a.menu-logo{
+        float: none;
+        margin: 0 auto;
     }
 }
 
@@ -41,4 +50,89 @@
     }
 }
 
+/*produtos*/
+
+@media (min-width:740px) and (max-width:980px){
+    .produtos-container {
+        max-width:720px;
+    }
+
+    .produtos-item{
+        max-width:220px;
+    }
+}
+
+@media (max-width: 739px){
+    .produtos-container{
+        max-width: 300px;
+    }
+
+    .produtos-item{
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+}
+
 /*Locais*/
+
+@media (min-width:740px) and (max-width:980px){
+    .locais{
+        max-width: 720px;
+    }
+
+    .locais-item > div, .locais-item img{
+        max-width: 340px;
+    }
+}
+
+@media (max-width:739px){
+    .locais{
+        max-width: 300px;
+    }
+
+    .locais-item > div , .locais-item img{
+        width: 300px;
+        margin: 0;
+    }
+}
+
+/*Assine*/
+
+@media (min-width:740px) and (max-width:980px){
+    .assine-container{
+        max-width: 720px;
+    }
+
+    .assine-info, .assine form, .assine input{
+        width: 340px;
+    }
+}
+
+@media (max-width: 739px){
+    .assine-container{
+        max-width: 300px;
+    }
+
+    .assine-info , .assine form , .assine input{
+        max-width: 300px;
+    }
+}
+
+/*footer*/
+
+@media (max-width: 739px){
+    .container-footer{
+        max-width: 300px;
+    }
+
+    .footer p{
+        float: none;
+        margin: 0;
+    }
+
+    .footer img {
+        float: none;
+        margin: 0 10px;
+    }
+}
