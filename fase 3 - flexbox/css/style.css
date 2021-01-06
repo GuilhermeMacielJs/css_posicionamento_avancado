@@ -17,7 +17,6 @@ body {
 .container{
 	display: flex;
 	align-items: center;
-	flex-wrap: wrap;
 	margin: 0 auto;
 	max-width: 960px;
 }
@@ -156,10 +155,18 @@ body {
 	background: #e7e4d8;
 	border-top: 3px solid #d6d3c8;
 	border-bottom: 3px solid #d6d3c8;
+	padding: 60px 0;
+}
+
+.produtos-item{
+	flex: 1;
+	margin: 0 10px 0 10px;
 }
 
 .produtos-item h2 {
+	text-align: center;
 	font-size: 2.25em;
+	margin-bottom: 20px;
 }
 
 .produtos-item h2::before {
@@ -171,6 +178,7 @@ body {
 	border-radius: 50%;
 	border: 5px solid #e7e4d8;
 	box-shadow: 0 0 0 5px currentColor;
+	margin: 20px auto;
 }
 
 h2.produtos-paulista::before {
@@ -191,6 +199,8 @@ h2.produtos-mineiro::before {
 }
 
 .produtos-btn {
+	max-width: 180px;
+	display: block;
 	border: 3px solid #252525;
 	color: #252525;
 	text-decoration: none;
@@ -198,9 +208,32 @@ h2.produtos-mineiro::before {
 	font-size: 1.125em;
 	font-weight: bold;
 	text-transform: uppercase;
+	padding: 15px 0;
+	margin: 50px auto 0 auto;
 }
 
 /* Locais */
+
+.locais{
+	padding: 47px 0;
+}
+
+.locais-item{
+	padding: 32.5px 0;
+}
+
+.locais-item.container{
+	align-items: flex-start;
+}
+
+.locais-item > div{
+	margin: 0 10px 0 10px;
+}
+
+.locais-item img{
+	max-width: 100%;
+	margin: 0 10px 0 10px;
+}
 
 .locais-item h2 {
 	font-size: 2.25em;
